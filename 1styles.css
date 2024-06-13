@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffcccc; /* Fondo rosa claro con un toque fuerte */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    font-size: 3em;
+    color: white; /* Color del texto */
+    background-color: rgba(255, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.gif {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px; /* Ajusta el tamaño del gif según sea necesario */
+}
